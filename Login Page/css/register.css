@@ -1,0 +1,15 @@
+#Mainbody{
+  background: #55efc4;
+}
+.avatar{
+ width: 250px;
+ text-align: center;
+ border-radius: 50%;
+}
+#main-wrapper{
+  width: 500px;
+  margin: 100px auto;
+  background: white;
+  padding: 5px;
+  border: 2px solid #f9ca24;
+}

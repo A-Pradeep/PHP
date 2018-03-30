@@ -1,0 +1,19 @@
+#body{
+background:linear-gradient(#0984e3,#4cd137) no-repeat;
+}
+#main-wrapper{
+  width: 500px;
+  margin: 100px auto;
+  background: white;
+  padding: 5px;
+  border: 2px solid #f9ca24;
+}
+.avatar{
+ width: 250px;
+ text-align: center;
+ border-radius: 50%;
+}
+.in1,.in2{
+  font-weight:bolder;
+color: #000000;
+}
