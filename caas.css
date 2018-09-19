@@ -1,0 +1,738 @@
+.mainDiv{
+	padding: 0 0 0 0;
+	text-align: center;
+}
+body{
+	background-color:pink;
+}
+/* Grid Layout*/
+
+
+
+
+
+/*Main Stuff*/
+
+.custom_button{
+    grid-column: 1/6;
+    width: 40%;
+    border-radius: 0%;
+    height: 5vh;
+    margin: 5%;
+    padding-top: 2%;
+    background-color: transparent;
+    border-color: #0ca5e2;
+    color: #0ca5e2;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.custom_button:hover{
+    background-color: #0ca5e2;
+    color: white;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 4vh;
+    padding-top:1vh;
+    width: 100%;
+    background-color: #0ca5e2;
+    color: white;
+    text-align: center;"
+}
+
+/* Card inside the form */
+.card{
+    box-shadow: none !important;
+    border: none;
+}
+.card-header.bg-default.panel-heading{
+    background-color: transparent;
+    border-bottom: #68c4e9 solid 2px;
+}
+
+
+/* Font customization*/
+label.control-label.form-check-label {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.font_weight{
+    font-weight: normal !important;
+}
+
+
+.Form_Div{
+    grid-column: 1/12; 
+    padding: 5%;
+    padding-top: 0;
+    margin-top:5%;
+    min-height: 70vh;
+}
+
+
+.logo_head{
+    width:50%; 
+    margin: 0 auto;
+
+}
+span.page-link {
+    padding-top: 10px !important;
+    min-height: 30px !important;
+    vertical-align: middle !important;
+}
+
+/*Modal size*/
+
+.modal-xl{
+    width: 90% !important;
+    min-width:90%;
+}
+
+/*Logo on the modal*/
+
+.logo_modal{
+    width:10%; 
+    margin: 0px;
+}
+
+
+/*Button CSS*/
+
+/*Next Button CSS*/
+
+button.btn.btn-primary.btn-wizard-nav-next {
+    
+    background-color:#0ca5e2 ;
+    border:none;
+    border-radius:0%;
+    width:15vh;
+    border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+position:absolute; left:850;
+margin-top: 5px;
+
+}
+
+button.btn.btn-primary.btn-wizard-nav-next:hover {
+    background-color:#68c4e9;
+}
+
+/*Cancel Button CSS*/
+
+button.btn.btn-default.btn-secondary.btn-wizard-nav-cancel {
+    background-color: #dfdfdf;
+    border:none;
+    border-radius:0%;
+    color:#969595;
+    width:15vh;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    position:absolute; left:0; 
+    margin-top: 5px;
+
+
+}
+
+button.btn.btn-default.btn-secondary.btn-wizard-nav-cancel:hover {
+    background-color: #f7f7f7 ;
+}
+
+/*Previous Button CSS*/
+
+
+button.btn.btn-primary.btn-wizard-nav-previous {
+    background-color:#0ca5e2 ;
+    border:none;
+    border-radius:0%;
+    width:15vh;
+    border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+position:absolute; left:700;
+margin-top: 5px;
+
+
+}
+
+button.btn.btn-primary.btn-wizard-nav-previous:hover {
+    background-color:#68c4e9 ;
+}
+/*Submit Button CSS*/
+
+button.btn.btn-primary.btn-wizard-nav-submit {
+    background-color:#0ca5e2 ;
+    border:none;
+    border-radius:0%;
+    width:15vh;
+    border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+position:absolute; left:850; 
+margin-top: 5px;
+
+}
+
+button.btn.btn-primary.btn-wizard-nav-submit:hover {
+    background-color:#68c4e9 ;
+}
+
+/*
+Button CSS
+*/
+
+
+/*
+Alert CSS
+*/
+
+.alert-danger {
+    border: 1px solid red !important;
+    background-color: transparent !important;
+}
+.alert, .alert h1, .alert h2, .alert h3, .alert h4, .alert h5, .alert h6 {
+     color: #afafaf !important;
+}
+.alert {
+    position: relative !important;
+    padding: 2% 1% 2% 2% !important;
+    margin-bottom: 1% !important;
+    border-radius: 0.25rem !important;
+}
+
+/*
+Alert CSS
+*/
+
+
+
+/* Input group */
+
+
+@-webkit-keyframes click-wave {
+    0% {
+      height: 40px;
+      width: 40px;
+      opacity: 0.35;
+      position: relative;
+    }
+    100% {
+      height: 200px;
+      width: 200px;
+      margin-left: -80px;
+      margin-top: -80px;
+      opacity: 0;
+    }
+  }
+  @-moz-keyframes click-wave {
+    0% {
+      height: 40px;
+      width: 40px;
+      opacity: 0.35;
+      position: relative;
+    }
+    100% {
+      height: 200px;
+      width: 200px;
+      margin-left: -80px;
+      margin-top: -80px;
+      opacity: 0;
+    }
+  }
+  @keyframes click-wave {
+    0% {
+      height: 40px;
+      width: 40px;
+      opacity: 0.30;
+      position: relative;
+    }
+    100% {
+      height: 70px;
+      width: 70px;
+      margin-left: -20px;
+      margin-top: -20px;
+      opacity: 0;
+    }
+  }
+
+/* Font customization*/
+
+label.control-label.field-required {
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+
+}
+label.control-label {
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+
+}
+
+/* Font customization*/
+
+.form-check.radio span{
+    font-size: 18px;
+    font-weight: normal;
+}
+/* Font customization*/
+
+.form-check.checkbox span {
+    font-size: 18px;
+    font-weight: normal;
+}
+/* Hover effect*/
+
+.form-check.checkbox:hover{
+    color: #0ca5e2;
+}
+
+
+
+/* Hover effect*/
+
+.form-check.radio:hover{
+    color: #0ca5e2;
+}
+
+
+/*Input field customization*/
+
+  .form-check-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative !important;
+    top: 10.0px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    -webkit-transition: all 0.15s ease-out 0s;
+    -moz-transition: all 0.15s ease-out 0s;
+    transition: all 0.15s ease-out 0s;
+    background: #cbd1d8;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+    position: relative;
+    z-index: 1000;
+    
+  }
+
+  /*Input field Color change*/
+
+  .form-check-input:hover {
+    background: #9faab7;
+  }
+  .form-check-input:checked {
+    background: #0ca5e2;
+  }
+
+  /*Radio button shape change*/
+
+  input[type=radio] {
+    border-radius: 50% !important;
+    content: '';
+}
+
+  /*Radio button animation*/
+
+input[type=radio]:checked::after {
+    border-radius: 50% !important;
+    -webkit-animation: click-wave 0.65s;
+    -moz-animation: click-wave 0.65s;
+    animation: click-wave 0.65s;
+    background: #40e0d0;
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 100;
+}
+
+
+    /*Radio button animation*/
+
+  .form-check-input[type=checkbox]:checked::before {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    content: '\2713';
+    display: inline-block;
+    font-size: 26.6666666667px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .form-check-input[type=checkbox]:checked::after {
+    -webkit-animation: click-wave 0.65s;
+    -moz-animation: click-wave 0.65s;
+    animation: click-wave 0.65s;
+    background: #40e0d0;
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 100;
+}
+/* Input group */
+
+
+/* Calendar changes */
+.flatpickr-current-month span.cur-month {
+   color: cornflowerblue;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 550px) {
+/*Button CSS*/
+
+/*Next Button CSS*/
+button.btn.btn-primary.btn-wizard-nav-next {
+    
+    background-color:#0ca5e2 ;
+    border:none;
+    border-radius:0%;
+    width:8vh;
+    border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+position:absolute; left:650;
+margin-top: 5px;
+
+}
+
+button.btn.btn-primary.btn-wizard-nav-next:hover {
+    background-color:#68c4e9;
+}
+
+/*Cancel Button CSS*/
+button.btn.btn-default.btn-secondary.btn-wizard-nav-cancel {
+    background-color: #dfdfdf;
+    border:none;
+    border-radius:0%;
+    color:#969595;
+    width:8vh;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    position:absolute; left:0; 
+    margin-top: 5px;
+
+
+}
+
+button.btn.btn-default.btn-secondary.btn-wizard-nav-cancel:hover {
+    background-color: #f7f7f7 ;
+}
+
+/*Previous Button CSS*/
+button.btn.btn-primary.btn-wizard-nav-previous {
+    background-color:#0ca5e2 ;
+    border:none;
+    border-radius:0%;
+    width:8vh;
+    border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+position:absolute; left:450;
+margin-top: 5px;
+
+
+}
+
+button.btn.btn-primary.btn-wizard-nav-previous:hover {
+    background-color:#68c4e9 ;
+}
+/*Submit Button CSS*/
+button.btn.btn-primary.btn-wizard-nav-submit {
+    background-color:#0ca5e2 ;
+    border:none;
+    border-radius:0%;
+    width:8vh;
+    border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+position:absolute; left:650; 
+margin-top: 5px;
+
+}
+
+button.btn.btn-primary.btn-wizard-nav-submit:hover {
+    background-color:#68c4e9 ;
+}
+
+/*
+Button CSS
+*/
+}
+
+
+@media only screen and (min-device-width: 550px) and (max-device-width: 950px) {
+    /*Button CSS*/
+    
+    /*Next Button CSS*/
+    button.btn.btn-primary.btn-wizard-nav-next {
+        
+        background-color:#0ca5e2 ;
+        border:none;
+        border-radius:0%;
+        width:11vh;
+        border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    position:absolute; left:650;
+    margin-top: 5px;
+    
+    }
+    
+    button.btn.btn-primary.btn-wizard-nav-next:hover {
+        background-color:#68c4e9;
+    }
+    
+    /*Cancel Button CSS*/
+    button.btn.btn-default.btn-secondary.btn-wizard-nav-cancel {
+        background-color: #dfdfdf;
+        border:none;
+        border-radius:0%;
+        color:#969595;
+        width:11vh;
+        border-radius: 200px 200px 200px 200px;
+        -moz-border-radius: 200px 200px 200px 200px;
+        -webkit-border-radius: 200px 200px 200px 200px;
+        position:absolute; left:0; 
+        margin-top: 5px;
+    
+    
+    }
+    
+    button.btn.btn-default.btn-secondary.btn-wizard-nav-cancel:hover {
+        background-color: #f7f7f7 ;
+    }
+    
+    /*Previous Button CSS*/
+    button.btn.btn-primary.btn-wizard-nav-previous {
+        background-color:#0ca5e2 ;
+        border:none;
+        border-radius:0%;
+        width:11vh;
+        border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    position:absolute; left:500;
+    margin-top: 5px;
+    
+    
+    }
+    
+    button.btn.btn-primary.btn-wizard-nav-previous:hover {
+        background-color:#68c4e9 ;
+    }
+    /*Submit Button CSS*/
+    button.btn.btn-primary.btn-wizard-nav-submit {
+        background-color:#0ca5e2 ;
+        border:none;
+        border-radius:0%;
+        width:14vh;
+        border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    position:absolute; left:650; 
+    margin-top: 5px;
+    
+    }
+    
+    button.btn.btn-primary.btn-wizard-nav-submit:hover {
+        background-color:#68c4e9 ;
+    }
+    /*Button CSS*/
+    }
+
+@media only screen and (min-device-width: 950px) and (max-device-width: 1200px) {
+    /*Button CSS*/
+    
+    /*Next Button CSS*/
+    button.btn.btn-primary.btn-wizard-nav-next {
+        
+        background-color:#0ca5e2 ;
+        border:none;
+        border-radius:0%;
+        width:13vh;
+        border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    position:absolute; left:650;
+    margin-top: 5px;
+    
+    }
+    
+    button.btn.btn-primary.btn-wizard-nav-next:hover {
+        background-color:#68c4e9;
+    }
+    
+    /*Cancel Button CSS*/
+    button.btn.btn-default.btn-secondary.btn-wizard-nav-cancel {
+        background-color: #dfdfdf;
+        border:none;
+        border-radius:0%;
+        color:#969595;
+        width:13vh;
+        border-radius: 200px 200px 200px 200px;
+        -moz-border-radius: 200px 200px 200px 200px;
+        -webkit-border-radius: 200px 200px 200px 200px;
+        position:absolute; left:0; 
+        margin-top: 5px;
+    
+    
+    }
+    
+    button.btn.btn-default.btn-secondary.btn-wizard-nav-cancel:hover {
+        background-color: #f7f7f7 ;
+    }
+    
+    /*Previous Button CSS*/
+    button.btn.btn-primary.btn-wizard-nav-previous {
+        background-color:#0ca5e2 ;
+        border:none;
+        border-radius:0%;
+        width:13vh;
+        border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    position:absolute; left:600;
+    margin-top: 5px;
+    
+    
+    }
+    
+    button.btn.btn-primary.btn-wizard-nav-previous:hover {
+        background-color:#68c4e9 ;
+    }
+    /*Submit Button CSS*/
+    button.btn.btn-primary.btn-wizard-nav-submit {
+        background-color:#0ca5e2 ;
+        border:none;
+        border-radius:0%;
+        width:15vh;
+        border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    position:absolute; left:700; 
+    margin-top: 5px;
+    
+    }
+    
+    button.btn.btn-primary.btn-wizard-nav-submit:hover {
+        background-color:#68c4e9 ;
+    }
+    /*Button CSS*/
+    }
+
+    @media only screen and (min-device-width: 1200px) and (max-device-width: 2000px) {
+        /*Button CSS*/
+        
+        /*Next Button CSS*/
+        button.btn.btn-primary.btn-wizard-nav-next {
+            
+            background-color:#0ca5e2 ;
+            border:none;
+            border-radius:0%;
+            width:17vh;
+            border-radius: 200px 200px 200px 200px;
+        -moz-border-radius: 200px 200px 200px 200px;
+        -webkit-border-radius: 200px 200px 200px 200px;
+        position:absolute; left:950;
+        margin-top: 5px;
+        
+        }
+        
+        button.btn.btn-primary.btn-wizard-nav-next:hover {
+            background-color:#68c4e9;
+        }
+        
+        /*Cancel Button CSS*/
+        button.btn.btn-default.btn-secondary.btn-wizard-nav-cancel {
+            background-color: #dfdfdf;
+            border:none;
+            border-radius:0%;
+            color:#969595;
+            width:17vh;
+            border-radius: 200px 200px 200px 200px;
+            -moz-border-radius: 200px 200px 200px 200px;
+            -webkit-border-radius: 200px 200px 200px 200px;
+            position:absolute; left:0; 
+            margin-top: 5px;
+        
+        
+        }
+        
+        button.btn.btn-default.btn-secondary.btn-wizard-nav-cancel:hover {
+            background-color: #f7f7f7 ;
+        }
+        
+        /*Previous Button CSS*/
+        button.btn.btn-primary.btn-wizard-nav-previous {
+            background-color:#0ca5e2 ;
+            border:none;
+            border-radius:0%;
+            width:17vh;
+            border-radius: 200px 200px 200px 200px;
+        -moz-border-radius: 200px 200px 200px 200px;
+        -webkit-border-radius: 200px 200px 200px 200px;
+        position:absolute; left:800;
+        margin-top: 5px;
+        
+        
+        }
+        
+        button.btn.btn-primary.btn-wizard-nav-previous:hover {
+            background-color:#68c4e9 ;
+        }
+        /*Submit Button CSS*/
+        button.btn.btn-primary.btn-wizard-nav-submit {
+            background-color:#0ca5e2 ;
+            border:none;
+            border-radius:0%;
+            width:17vh;
+            border-radius: 200px 200px 200px 200px;
+        -moz-border-radius: 200px 200px 200px 200px;
+        -webkit-border-radius: 200px 200px 200px 200px;
+        position:absolute; left:950; 
+        margin-top: 5px;
+        
+        }
+        
+        button.btn.btn-primary.btn-wizard-nav-submit:hover {
+            background-color:#68c4e9 ;
+        }
+        /*Button CSS*/
+        }
+
+
+
+
+        /*Universal Form Changes*/
+
+
+        .main_Section{
+            display: grid; 
+            grid-template-columns: repeat(12, 1fr); 
+            width: 100%; 
+            margin: auto;
+            margin-top: 2%;
+        }
+        
+.inside_Section{
+    grid-column: 1/12;
+    margin: auto 0;
+    margin-left: 20vh;
+}
